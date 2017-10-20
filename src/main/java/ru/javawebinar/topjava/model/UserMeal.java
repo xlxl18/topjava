@@ -20,14 +20,14 @@ public class UserMeal {
     }
 
     public LocalDateTime getDateTime() {
-        return dateTime;
+        return this.dateTime;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public int getCalories() {
-        return calories;
+        return this.calories;
     }
 }
